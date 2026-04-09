@@ -12,7 +12,7 @@ const { getTodayWIBDate, getDayNameIndonesia } = require('./time');
 function normalizePrize1(value) {
   return String(value || '')
     .replace(/\D/g, '')
-    .slice(0, 4);
+    .slice(0, 5);
 }
 
 function makeEmptyPayload() {
